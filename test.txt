@@ -1,0 +1,17 @@
+#initializes the git library
+    git init
+
+#Adds all project changes
+    git add .
+
+#adds a commit message
+    git commit -m "Updated project structure and layout"
+
+#creates a branch called main
+    git branch -M main
+
+#connects your diretory to a github repoistory
+    git remote add origin https://github.com/alexbustamantee/week-7-coding-project.git
+
+#pushes code from your computer to the main branch
+    git push -u origin main
